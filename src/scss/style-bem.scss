@@ -1,17 +1,9 @@
-$nav-background-color:#55f;
-$nav-shadow-color:#555;
-$link-color:#bbb;
-$link-hover-color:#fff;
-$link-hover-background-color:#66e;
+@use "modules/modules";
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-}
 
 .nav {
-    background: $nav-shadow-color;
-    box-shadow: 0 0 10px $nav-shadow-color;
+    background: modules.$nav-shadow-color;
+    box-shadow: 0 0 10px modules.$nav-shadow-color;
     display: flex;
     justify-content: center;
 
